@@ -13,3 +13,11 @@ We will find:
 4. The asymptotic proportion of time that the system is operational.
 
 For each question, a simulation is presented and we compare the result with the theoretical calculation in the attached PDF document. In all cases, we observe a clear agreement between experimental and theoretical results. All cells can be run to check the results or modify the value of the parameters. Seeds have been set to ensure reproducibility.
+
+*renewal-process-analysis.pdf*: Document with mathematical explanations
+
+*renewal-process-simulation.Rmd*: R Markdown notebook with cells for running code
+
+*renewal-process-simulation.md*: Markdown export of the notebook to view the content directly on GitHub
+
+*renewal-process-simulation.html*: HTML export of the notebook to view the content in a browser
