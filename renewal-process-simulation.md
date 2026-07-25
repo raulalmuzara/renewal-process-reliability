@@ -7,7 +7,9 @@ Raul Almuzara
 This is the code for the simulation of an electronic system with
 components whose lifespans follow an exponential distribution.
 
-*An electronic system requires $m$ components to operate. These
+ 
+
+An electronic system requires $m$ components to operate. These
 components are identical and operate independently. The lifespan of each
 component follows an exponential distribution of mean $1/\lambda$. The
 system is operational only if there are at least $m$ components
@@ -21,19 +23,19 @@ replaced with new ones. The time it takes a technician to replace a
 component is negligible. Defective units can only be detected in these
 inspection times. For each working component, there is an operating cost
 $I$ per unit of time. There is also a fixed cost $K$ for each inspection
-and a repair cost $R$ for each component that must be replaced.*
+and a repair cost $R$ for each component that must be replaced.
 
 We will find:
 
-1.  *The probability that the system will fail between two consecutive
-    inspection periods.*
+1.  The probability that the system will fail between two consecutive
+    inspection periods.
 
-2.  *The number $r$ of redundant units that would guarantee a
-    probability that the system is operational $p_0$.*
+2.  The number $r$ of redundant units that would guarantee a probability
+    that the system is operational $p_0$.
 
-3.  *The asymptotic cost per unit of time of the system.*
+3.  The asymptotic cost per unit of time of the system.
 
-4.  *The asymptotic proportion of time that the system is operational.*
+4.  The asymptotic proportion of time that the system is operational.
 
 For each question, a simulation is presented and we compare the result
 with the theoretical calculation in the attached PDF document. In all
